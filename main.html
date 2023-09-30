@@ -1,53 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- the entire body must be written by student -->
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-	 <header>
-        <h1>Oppenheimer</h1>
+    <header class="text-center m-3">
+      <h1>John Wick</h1>
     </header>
+    <main>
+      <!-- Navigation Section -->
+      <section class="container-fluid">
+        <nav class="navbar navbar-expand">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#nav-actor" class="nav-link">Actors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-quote" class="nav-link">Quotes</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
 
-    <nav>
-        <a href="#actor" id="nav-actor">Actors</a>
-        <a href="#quote" id="nav-quote">Quotes</a>
-    </nav>
+      <section class="row mx-4">
+        <section class="col-8">
+          <!-- Summary Section -->
+          <section id="summary">
+            <summary>
+              <p>
+                Legendary assassin John Wick (Keanu Reeves) retired from his
+                violent career after marrying the love of his life. Her sudden
+                death leaves John in deep mourning. When sadistic mobster Iosef
+                Tarasov (Alfie Allen) and his thugs steal John's prized car and
+                kill the puppy that was a last gift from his wife, John
+                unleashes the remorseless killing machine within and seeks
+                vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's
+                former colleague -- puts a huge bounty on John's head.
+              </p>
+            </summary>
+          </section>
 
-    <section id="summary">
-        <h2>Summary</h2>
-    <p>Write a brief summary of the plot of your favorite movie here.</p>
-    </section>
+          <!-- Actor Section -->
+          <section id="actor" class="mx-4">
+            <h2>Actors</h2>
+            <p>
+              John Wick is portrayed by Keanu Reeves, who delivers a stunning
+              performance in the lead role. Other notable actors in the movie
+              include Ian McShane and Willem Dafoe.
+            </p>
+          </section>
 
-    <section id="actor">
-        <h2>Actors</h2>
-        <p><b>Cillian Murphy</b> as J. Robert Oppenheimer, a theoretical physicist and director of the Los Alamos National Laboratory.<br>
-<b>Emily Blunt</b> as Katherine "Kitty" Oppenheimer, Robert Oppenheimer's wife and a former Communist Party USA member.<br>
-<b>Matt Damon</b> as Gen. Leslie Groves, a USACE officer and director of the Manhattan Project.<br>
-<b>Robert Downey Jr.</b> as Lewis Strauss, a high-ranking member of the U.S. Atomic Energy Commission.<br>
-<b>Florence Pugh </b>as Jean Tatlock, a psychiatrist, Communist Party USA member, and Robert Oppenheimer's romantic interest.</p>
-    </section>
+          <!-- Quote Section -->
+          <section id="quote" class="mx-4">
+            <h2>Favourite Quotes</h2>
+            <blockquote>
+              &ldquo;My name can't be that tough to pronounce!&rdquo;
+              <cite> - Keanu Reeves</cite>
+            </blockquote>
+          </section>
+        </section>
 
-    <section id="quote">
-        <h2>Quotes</h2>
-        <p>In 1926, 22-year-old doctoral student J. Robert Oppenheimer grapples with anxiety and homesickness while studying under experimental physicist Patrick Blackett at the Cavendish Laboratory in Cambridge. An upset Oppenheimer leaves the demanding Blackett a poisoned apple but later retrieves it. Visiting scientist Niels Bohr recommends that Oppenheimer should instead study theoretical physics at Göttingen. He completes his PhD there and meets Isidor Isaac Rabi. The two later meet theoretical physicist Werner Heisenberg in Switzerland. Wanting to expand quantum physics research in the United States, Oppenheimer begins teaching at the University of California, Berkeley, and the California Institute of Technology. He meets his future wife, Katherine "Kitty" Puening, a biologist and ex-communist, and has an intermittent affair with Jean Tatlock, a troubled Communist Party USA member who later commits suicide.</p>
-    </section>
+        <section
+          id="aside"
+          class="col-4 d-flex justify-content-center align-items-center"
+        >
+          <aside>
+            <h3>IMDB Rating & Release Date</h3>
+            <p class="d-flex">
+              IMDB Rating:
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png"
+                alt="star icon"
+                width="20"
+                height="20"
+                class="mx-2"
+              />
+              7.4/10
+            </p>
+            <p class="d-flex">Release Date: October 24, 2014</p>
+          </aside>
+        </section>
+      </section>
+    </main>
+    <footer class="mx-4 my-5">Produced by - Basil Iwanyk</footer>
 
-    <aside>
-        <h2>Additional Information</h2>
-        <p>IMDb Rating : 8.6 / 10</p>
-        <p>Release Date : July 21, 2023 (United States and United Kingdom)</p>
-    </aside>
-
-    <footer>
-        Produced by: <span>	Christopher Nolan</span>
-    </footer>
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
